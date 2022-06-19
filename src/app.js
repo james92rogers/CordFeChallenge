@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import styled from "styled-components";
 
 import SideNavBar from "./components/sidenavbar";
@@ -37,6 +42,7 @@ function App() {
             <Route path="/discover">
               <Discover setIsOpen={setIsOpen} screenWidth={screenWidth} />
             </Route>
+            <Redirect from="/" to="/discover" />
           </Switch>
         </ContentWrapper>
       </PageContainer>

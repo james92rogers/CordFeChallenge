@@ -1,7 +1,7 @@
 ### Running the App
 
 First, clone the repo from Github
-Secondly, open a terminal and navigate to the cord-fe-challenge-2022 folder
+Secondly, open a terminal and make sure you're in the root folder (named cordfechallenge)
 Next run `npm i` to ensure you install all the dependancies you need
 After that run `npm start` to start the application on your browser
 
@@ -12,7 +12,7 @@ I'm still happy to celebrate some wins, but also to reflect on some losses/block
 
 The wins for me would be the search function. I believe it works very well and responds as soon as the user starts to type, using state management and an if statement to determine which of the three searches should run (either popular movies, the film title the user has searched, or the film title that has been searched but also filtered by the year). I also felt the components around the accordian filter and the checkbox were clean and kept simple. Another win was that I hadn't come across styled components before this challenge. At first I had absolutely no idea what the styling was doing at the bottom of each js page, but in the end I worked it out and was relieved to see it used SASS functionality, so I was able to take advantage of variables and nesting being included.
 
-As for blockers, one of the obvious ones was time. Ideally I'd loved to have just built this application from the ground up (I still might try and look to do this in my own time as a side challenge to myself), but for the purposes of this challenge that wasn't a posibility. I also encountered some styling issues when it came to the phone styling, which as I had left this until the end, wasn't ideal.
+As for blockers, one of the obvious ones was time. Ideally I'd loved to have just built this application from the ground up (I still might try and look to do this in my own time as a side challenge to myself), but for the purposes of this challenge that wasn't a posibility. I also encountered some styling issues when it came to the phone styling, which as I had left this until the end, wasn't ideal. When swapping from browser to phone view, it sometimes doesn't alter the sizing until you cancel phone view and put it back on again. If I had more time, this is something I would work on solving next.
 
 That being said I had fun doing this challenge.
 
